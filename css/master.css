@@ -1,0 +1,53 @@
+.video-container
+{
+  position: absolute;
+  z-index: -100;
+  top:0;
+  left:0;
+  width: 100%;
+  height:calc(100vw * 0.5625 ); /*El alto se calcula*/
+  overflow: hidden;
+}
+
+.video-container video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.header{
+  height:calc(100vw * 0.5625 );
+  text-align: center;
+  color:#FFF;
+  text-shadow:1px 1px 2px #999;
+}
+
+.testimonios{
+  text-align: center;
+}
+
+.seccion{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fondo-oscuro{
+  background-color: #260F33;
+  color: #fff;
+
+}
+
+.precio{
+  text-align: center;
+  height: 300px;
+  background-image: url('../Contenido/Img/Diseño\ sin\ título.png');
+  background-attachment: fixed;
+  color: #eee;
+  padding: 100px;
+}
+
+.contacto{
+  padding-bottom: 60px;
+}
